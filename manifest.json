@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Website IP Finder",
+  "version": "2.2",
+  "description": "Displays the IP address of the website currently open in the active tab.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
+

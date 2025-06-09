@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website IP Finder</title>
+    <script src="popup.js" defer></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 15px;
+            width: 250px;
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #domain {
+            font-weight: bold;
+            color: #007bff;
+        }
+        #ip {
+            font-size: 18px;
+            font-weight: bold;
+            color: #28a745;
+            margin-top: 5px;
+        }
+        .loading {
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h2>Website IP Finder</h2>
+    <div class="container">
+        <p>Domain: <span id="domain">Loading...</span></p>
+        <p id="ip" class="loading">Fetching IP...</p>
+    </div>
+    <footer>Powered by Google DNS</footer>
+</body>
+</html>
