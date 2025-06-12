@@ -9,6 +9,7 @@ A simple and lightweight Chrome extension that displays the IP address of the cu
 3. Enable **Developer Mode** (top right corner).
 4. Click **"Load unpacked"**.
 5. Select the `ip-finder-extension/` folder.
+(And change `icon.png` if you want)
 
 ## 🛠 How It Works
 
